@@ -1,13 +1,13 @@
  
 export const supportedVersions: { [key: string]: Array<string> } = {
-  motif: [ 'MotifSpace20210905'  ] 
+  motif: [ 'MotifAvatar20210905'  ] 
 }
  
 export const supportedVersionsTypeMapping: {
   [key: string]: { [key: string]: string }
 } = {
   motif: { 
-    'MotifSpace20210905': 'Motif20210905' 
+    'MotifAvatar20210905': 'Motif20210905' 
   } 
 }
  

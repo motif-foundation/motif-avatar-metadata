@@ -19,44 +19,65 @@
             "type": "string"
         },
         "name": {
-            "description": "Name of the Avatar creator",
+            "description": "Name of the Avatar",
             "examples": [
                 "My Art Gallery"
             ],
             "type": "string"
         },
-        "bio": {
-            "description": "Biography of the Avatar creator ",
+        "description": {
+            "description": "Description of the Avatar",
+            "examples": [
+                "My Art Gallery"
+            ],
+            "type": "string"
+        },
+        "ownerName": {
+            "description": "Name of the Avatar owner",
             "examples": [
                 "My art gallery has all the works I have created."
             ],
             "type": "string"
         }, 
+        "bio": {
+            "description": "Biography of the Avatar owner ",
+            "examples": [
+                "My art gallery has all the works I have created."
+            ],
+            "type": "string"
+        }, 
+        "artwork": {
+            "description": " ",
+            "examples": [
+                "https://ipfs.io/ipfs/QmQnDQbc8wDnVdtXbdrbY1ifwGw6QPAQGLwBvrV222vPhC"
+            ],
+            "type": "string"
+        },  
         "website": {
-            "description": "Webiste of the Avatar creator ",
+            "description": "Webiste of the Avatar owner",
             "examples": [
                 "My art gallery has all the works I have created."
             ],
             "type": "string"
         }, 
         "socials": {
-            "description": "Social links of the Avatar creator in stringified json object array",
+            "description": "Social links of the Avatar owner in stringified json object array",
             "examples": [
                 "[{instagram: \"@xxx\", twitter: \"yyy\"}]"
             ],
             "type": "string"
         }, 
         "favorites": {
-            "description": "Favorite nfts of the Avatar creator in stringified json array",
+            "description": "Favorite nfts of the Avatar owner in stringified json array",
             "examples": [
                 "[\"0x3BCE2Eb07Dd40498d61cFDdca25c3533d4efF8B0-12-space\", \"0x7BCE2Eb07Dd40498d61cFDdca25c3533d4efF8B0-11-item\"]"
             ],
             "type": "string"
         }, 
-        "profileBackground": {
-            "description": "Background picture ipfs url of profile",
+        "code": {
+            "description": "code of the avatar",
             "examples": [
-                "https://ipfs.io/xxx.png"
+                "<html>"
             ],
             "type": "string"
         },
@@ -66,7 +87,14 @@
                 "{followers:[\"0x3BCE2Eb07Dd40498d61cFDdca25c3533d4efF8B0\"], followed:[\"0x5BCE2Eb07Dd40498d61cFDdca25c3533d4efF8B0\"]}"
             ],
             "type": "string"
-        }, 
+        },  
+        "publishableKeys": {
+            "description": "publishable public api keys related to owner of avatar",
+            "examples": [
+                "{paypal: 'XXXYYYY'}"
+            ],
+            "type": "string"
+        },   
         "mimeType": {
             "description": "MimeType of the avatar model",
             "examples": [
@@ -87,9 +115,9 @@
     	  "assetType",
         "blockchain",
         "name",
-        "bio",
+        "description", 
         "mimeType",
-        "code",
+        "code", 
         "version"
     ]
 }

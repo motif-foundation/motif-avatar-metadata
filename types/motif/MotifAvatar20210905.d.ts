@@ -10,7 +10,7 @@ artwork?: string;
 website?: string;
 socials?: string;
 favorites?: string;
-code: string;
+data?: string;
 followings?: string;
 publishableKeys?:string;
 mimeType: string;   

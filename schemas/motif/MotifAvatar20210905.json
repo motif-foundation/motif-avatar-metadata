@@ -74,8 +74,8 @@
             ],
             "type": "string"
         }, 
-        "code": {
-            "description": "code of the avatar",
+        "data": {
+            "description": "additional data for the avatar",
             "examples": [
                 "<html>"
             ],
@@ -117,7 +117,7 @@
         "name",
         "description", 
         "mimeType",
-        "code", 
+        "data",
         "version"
     ]
 }

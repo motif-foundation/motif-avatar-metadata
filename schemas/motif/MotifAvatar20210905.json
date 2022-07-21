@@ -35,7 +35,7 @@
         "ownerName": {
             "description": "Name of the Avatar owner",
             "examples": [
-                "My art gallery has all the works I have created."
+                "John Doe"
             ],
             "type": "string"
         }, 
